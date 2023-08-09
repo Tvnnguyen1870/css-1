@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #1abc9c;
+    color: #fff;
+}
+
+.header h1{
+    font-size: 40px;
+}
+
+.header p {
+    margin-top: 20px;
+}
+
+/* nav */
+.nav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.nav a.right{
+    float: right;
+}
+
+.nav a:hover{
+    background-color: #ddd;
+    color: #000;
+}
+
+.row{
+    display: flex;
+}
+
+/* side content */
+
+.side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.side h2{
+    margin-bottom: 10px;
+}
+
+.side h3{
+    padding: 10px 0;
+}
+
+.side h5 {
+    margin-bottom: 8px;
+}
+
+.side p{
+    padding: 4px 0;
+    margin: 4px;
+}
+
+.fakeimg {
+    background-color:#aaa;
+    width: 100%;
+    padding-left: 8px;
+    line-height: 60px;
+}
+
+/* main content */
+
+.main {
+    flex: 70%;
+    background-color: white;
+    margin: 20px;
+}
+
+.main h2{
+    margin-bottom: 12px;
+}
+
+.main p{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.main h5 {
+    margin-bottom: 8px;
+}
+
+/* footer */
+
+.footer {
+    height: 50px;
+    width: 100%;
+    background-color: #ccc;
+    text-align: center;
+    line-height: 50px;
+}
